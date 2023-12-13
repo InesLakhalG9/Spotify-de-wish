@@ -1,0 +1,158 @@
+body {
+    background-color: #000;
+    color: #b3b3b3;
+    font-family: "Montserrat" , sans-serif;
+    height: 100vh;
+  }
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  
+.wrapper{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+
+
+
+.content{
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.sidebar{
+  min-width: calc(100%/5);
+  max-width: calc(100%/5);
+  display: flex;
+  background-color: #000000;
+  flex-direction: column;
+  gap:10px;
+}
+
+.navigation{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 14px 24px
+}
+.navigation .logo {
+    color: #ffffff;
+  }
+  
+  .navigation ul.menu {
+    list-style: none;
+  }
+  
+  .navigation ul.menu li.item {
+    padding: 3px 0px;
+  }
+  
+  .navigation ul.menu li.item a.item-link {
+    gap: 16px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    text-decoration: none;
+  }
+  
+  .navigation ul.menu li.item a.item-link svg.item-link-icon {
+    height: 24px;
+    fill: #b3b3b3;
+  }
+  
+  .navigation ul.menu li.item a.item-link:hover svg.item-link-icon {
+    fill: #ffffff;
+  }
+  
+  .navigation ul.menu li a.item-link span.item-link-text {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .navigation ul.menu li a.item-link:hover span.item-link-text {
+    color: #ffffff;
+  }
+
+.library{
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 14px 24px
+}
+
+
+.main{
+  display: flex;
+  border-radius: 8px;
+  flex: 1;
+  background-color: #121212;
+}
+
+.preview {
+  width: 100%;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+/* linearGradientest un degradé */
+.preview h6 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.preview p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.preview button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
